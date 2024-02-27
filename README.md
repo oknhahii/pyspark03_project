@@ -9,6 +9,7 @@ Ta thực hiện transform để tạo 2 báo cáo:
 Load các bảng đã transform vào PostgresQL database.
 
 II) Xử lý dữ liệu không cấu trúc.
+
 Lấy dữ liệu không có cấu trúc từ các email vị dụ. Email này được tạo ra nhờ việc hỏi ChatGPT.
 Sau khi load các email và Rdd. Ta sẽ thực hiện đếm số từ của email, lấy ra tên người nhận và đánh giá thái độ của email.
 Đưa các thông tin trên cùng với tên email vào 1 dataframe và load thành table trong PostgresQl database.
